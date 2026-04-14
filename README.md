@@ -21,7 +21,7 @@ Modern, responsive personal portfolio built for the **Wix Grow Software Engineer
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](https://YOUR-USERNAME.github.io/portfolio)
+[View Live Portfolio](https://OJCodeCanvas.github.io/portfolio)
 
 ## 📂 Other Projects
 
