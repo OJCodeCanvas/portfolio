@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name | Aspiring Software Engineer</title>
+  <title>OJCodeCanvas | Aspiring Software Engineer</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
   <!-- Navbar -->
   <nav class="navbar">
     <div class="nav-container">
-      <h1 class="logo">YourName</h1>
+      <h1 class="logo">OJCodeCanvas</h1>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -25,17 +25,20 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <section class="hero">
     <div class="hero-content">
-      <h2>Hi, I'm <span class="highlight">Your Full Name</span></h2>
-      <p class="subtitle">Aspiring Software Engineer | Learning Python, Java & JavaScript</p>
+      <div class="profile-container">
+        <img src="https://i.imgur.com/TepI8y4.jpeg" alt="OJ CodeCanvas" class="profile-pic">
+      </div>
+      <h2>Hi, I'm <span class="highlight">OJ</span></h2>
+      <p class="subtitle">Aspiring Software Engineer | Python • Java • JavaScript</p>
       <p class="description">
-        Passionate about building clean, user-friendly web applications. 
-        Currently preparing for the Wix Grow Software Engineering Internship.
+        Passionate about building clean and user-friendly web applications.<br>
+        Preparing for the Wix Grow Software Engineering Internship.
       </p>
       <div class="hero-buttons">
-        <a href="#projects" class="btn primary">View My Projects</a>
+        <a href="#projects" class="btn primary">View Projects</a>
         <a href="#contact" class="btn secondary">Get In Touch</a>
       </div>
     </div>
@@ -44,20 +47,7 @@
   <!-- About -->
   <section id="about" class="section">
     <h2>About Me</h2>
-    <div class="about-content">
-      <p>
-        I'm a motivated student/self-learner with a strong passion for coding and problem-solving. 
-        I love creating things that people actually use. Right now I'm focusing on:
-      </p>
-      <ul>
-        <li>Mastering Java and Python</li>
-        <li>Building interactive frontends with HTML, CSS & JavaScript</li>
-        <li>Writing clean, testable code</li>
-      </ul>
-      <p>
-        My goal is to join Wix Grow and contribute to products used by millions of users worldwide.
-      </p>
-    </div>
+    <p>I'm a motivated self-learner with hands-on experience building full-stack projects. Currently focusing on clean code, testing, and modern web technologies.</p>
   </section>
 
   <!-- Skills -->
@@ -66,39 +56,39 @@
     <div class="skills-grid">
       <div class="skill-card">HTML5</div>
       <div class="skill-card">CSS3</div>
-      <div class="skill-card">JavaScript (ES6+)</div>
+      <div class="skill-card">JavaScript</div>
       <div class="skill-card">Python</div>
       <div class="skill-card">Java</div>
       <div class="skill-card">Git & GitHub</div>
       <div class="skill-card">Responsive Design</div>
-      <div class="skill-card">Problem Solving</div>
     </div>
   </section>
 
-  <!-- Projects -->
+  <!-- Featured Projects -->
   <section id="projects" class="section">
     <h2>Featured Projects</h2>
     <div class="projects-grid" id="projects-container">
-      <!-- Projects will be added by JavaScript -->
+      <!-- JavaScript will fill this area -->
     </div>
   </section>
 
   <!-- Contact -->
   <section id="contact" class="section">
-    <h2>Contact Me</h2>
+    <h2>Get In Touch</h2>
     <form id="contact-form" class="contact-form">
       <input type="text" id="name" placeholder="Your Name" required>
       <input type="email" id="email" placeholder="Your Email" required>
-      <textarea id="message" placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn primary">Send Message</button>
+      <textarea id="message" placeholder="Your Message" rows="6" required></textarea>
+      <button type="submit" class="btn primary" id="submit-btn">Send Message</button>
     </form>
-    <p class="or">Or email me directly at: <strong>your.email@example.com</strong></p>
   </section>
 
   <footer>
-    <p>© 2026 Your Name. Built with ❤️ using HTML, CSS & JavaScript</p>
+    <p>© 2026 OJCodeCanvas • Built for Wix Grow Application</p>
   </footer>
 
+  <!-- EmailJS (must be before script.js) -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
